@@ -1,0 +1,36 @@
+th {
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid lightgray;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
+
+td:hover .row__change{
+    opacity: 1;
+}
+
+td:hover .row__change_save {
+    opacity: 1;
+}
+
+.row__change {
+    border: 1px solid lightgray;
+    background: none;
+    cursor: pointer;
+    transition: .3s;
+    opacity: 0;
+}
+
+.change__img {
+    width: 100%;
+}
+
+.row__change_save {
+    opacity: 0;
+    transition: .3s;
+}

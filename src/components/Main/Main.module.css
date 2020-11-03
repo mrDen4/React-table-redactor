@@ -1,0 +1,46 @@
+.main {
+
+}
+
+.main__container {
+    max-width: 1170px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__table {
+    border-spacing: 0;
+}
+
+.main__table th {
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+.main__table td {
+    border: 1px solid lightgray;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
+
+td:hover .row__change{
+    opacity: 1;
+}
+
+.row__change {
+    border: none;
+    width: 25px;
+    height: 25px;
+    background: none;
+    cursor: pointer;
+    transition: .3s;
+    opacity: 0;
+}
+
+.change__img {
+    width: 100%;
+}
